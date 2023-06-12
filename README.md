@@ -8,14 +8,14 @@ step 3: gcc y.tab.c 生成 a.out ，直接运行使用
 step 4: run ./a.out
 
 ```
-Mac:lex_yacc helin$ lex lex.l 
-Mac:lex_yacc helin$ yacc yacc.y 
-Mac:lex_yacc helin$ gcc y.tab.c 
-Mac:lex_yacc helin$ ./a.out 
+Mac:lex_yacc $ lex lex.l 
+Mac:lex_yacc $ yacc yacc.y 
+Mac:lex_yacc $ gcc y.tab.c 
+Mac:lex_yacc $ ./a.out 
 23+232-23^2
 -274.000000
 
-Mac:lex_yacc helin$ ls
+Mac:lex_yacc $ ls
 README.md a.out     lex.l     lex.yy.c  y.tab.c   yacc.y
 
 ```
